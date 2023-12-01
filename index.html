@@ -13,6 +13,7 @@
     <title>Welcome to Konbi-Mart! | コンビーマート</title>
 </head>
 <body>
+<!--The navigation bar. The fluid container allows the list items to stack on smaller format screens-->
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
           <a class="navbar-brand mb-0 h1 text-light" href="#">Konbi-Mart</a>
@@ -46,7 +47,7 @@
           </div>
         </div>
       </nav>
-<!--Section Break-->
+<!--The hero container, content inside will take up 2/3 units of screen space for medium format and is centered horizontally.-->
 <section class="hero">
     <div class="container">
         <div class="row justify-content-center">
@@ -60,64 +61,66 @@
         </div>
     </div>
 </section>
-<!--Section Break-->
+<!--The Services section, the row class will organize the cards into rows.-->
 
 <section class="services">
     <div class="container">
         <h2 class="text-center mb-4">Our Services</h2>
+<!--Each card will take up 4 of 12 columns on large screens and 6 of 12 on medium screens to ensure responsive layout.-->
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <div class="card-body">
+                    <a href="#"><div class="card-body">
                         <h5 class="card-title">Daily Specials</h5>
                         <p class="card-text">Karaage, onigiri, and more made fresk in-store daily.</p>
-                    </div>
+                    </div></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <div class="card-body">
+                    <a href="#"><div class="card-body">
                         <h5 class="card-title">Japanese Snacks</h5>
                         <p class="card-text">A variety of seasonal snacks to satisfy your cravings.</p>
-                    </div>
+                    </div></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <div class="card-body">
+                    <a href="#"><div class="card-body">
                         <h5 class="card-title">Bento Boxes</h5>
                         <p class="card-text">Convenient and delicious bento boxes for a quick meal on the go.</p>
-                    </div>
+                    </div></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <div class="card-body">
+                    <a href="#"><div class="card-body">
                         <h5 class="card-title">Hot and Cold Beverages</h5>
                         <p class="card-text">Refreshing and unique drinks to quench your thirst for every season.</p>
-                    </div>
+                    </div></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <div class="card-body">
+                    <a href="#"><div class="card-body">
                         <h5 class="card-title">Convenience Essentials</h5>
                         <p class="card-text">Daily essentials and household items for your convenience.</p>
-                    </div>
+                    </div></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <div class="card-body">
+                    <a href="#"><div class="card-body">
                         <h5 class="card-title">Neighborhood Services</h5>
                         <p class="card-text">Ask our staff about luggage forwarding, bill pay, and more.</p>
-            </div>
+            </div></a>
         </div>
     </div>
 </section>
 
 <section class="about">
     <div class="container">
+<!--The about section contains an H2 title tag with margin bottom value of 4.-->
         <h2 class="text-center text-uppercase mb-4">About Konbi-Mart</h2>
         <p>
             Konbi-Mart is your go-to destination for a taste of Japan's convenience and culture. Established in 1984, we bring the essence of Japanese convenience stores to your neighborhood, offering a curated selection of fresh sushi, authentic snacks, bento boxes, Japanese beverages, and daily essentials.
@@ -127,5 +130,36 @@
         </p>
     </div>
 </section>
+<!--A footer with three equally sized sections (4 of 12) centered horizontally.-->
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Social Media Section -->
+            <div class="col-md-4 social-media">
+                <h5>Social Media</h5>
+                <ul class="list-unstyled">
+                    <li><img src="Facebook_icon.png" alt="Facebook Icon." class="icon"> <a href="#">Facebook</a></li>
+                    <li><img src="twitter_icon.png" alt="Instagram Icon." class="icon"> <a href="#">Twitter</a></li>
+                    <li><img src="Instagram_icon.png" alt="Instagram Icon." class="icon"><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info Section -->
+            <div class="col-md-4 contact-info">
+                <h5>Contact Info</h5>
+                <p>Email: info@konbi-mart.jp</p>
+                <p>Phone: +81 (55) 555-1234</p>
+            </div>
+
+            <!-- Address Section -->
+            <div class="col-md-4 address">
+                <h5>Address</h5>
+                <p>〒403-0015</p>
+                <p>Yamanashi, Fujiyoshida, Hanamomocho</p>
+                <p>Fuji Hills Building, Room 203</p>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

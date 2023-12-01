@@ -2,6 +2,16 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
+/*Applies link hover effect.*/
+    a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/*Applies white text to all text on dark backgrounds.*/
+.hero, .about, .card-body:hover, .contact-info, .address, .social-media, .social-media a, .social-media a:hover {
+    color: white;
+}
+/*Applies the hero image, a picture of a convenience store. The background-size and position values are intended to keep the image centered as the viewport size changes.*/
 
 .hero {
     background-image: url("hero-image.jpg");
@@ -12,6 +22,7 @@ body {
     text-align: center;
     padding: 100px 0;
 }
+/*Styles the hero text.*/
 
 .hero h1 {
     font-size: 3em;
@@ -24,37 +35,67 @@ body {
     margin-bottom: 30px;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
-
+/*Adds color and padding to the services section.*/
 .services {
-    background-color: #ffffff;
     padding: 80px 0;
 }
 
+/*Sizes the cards in the services section and adds additional spacing in the section itself.*/
 .services .card {
     margin-bottom: 20px;
 }
 
+/*Adds background color to about section and styles text*/
 .about {
     background-color: #343a40;
-    color: #ffffff;
     padding: 80px 0;
+}
+
+/*Removes styling from the cards that are links.*/
+.card a {
+    text-decoration: none;
+    color: black;
 }
 
 .about p {
     font-size: 1.1em;
     line-height: 1.6;
 }
-
+/*Adds a hover effect (changes color) */
 .card-body:hover {
     background: #FF0066;
-    color: white;
 }
-
+/*Adds a grey box to accent the hero text.*/
 .backing-box {
     background: rgba(24,24,24,0.7);
     padding: 1rem;
 }
 
+/*Sizes the logo responsively, keeping it small.*/
 .backing-box img {
     max-width: 10%;
 }
+
+/*Adds color and spacing to the footer.*/
+footer {
+    background-color: #FF0066;
+    padding: 15px 0;
+    margin-top: auto;
+}
+
+/*Removes links from links in the social media section*/
+.social-media a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+}
+
+.icon {
+    height: 1.5rem;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
